@@ -10,6 +10,13 @@ designed for Machine Learning and Computer Vision projects.
 - Normalization
 - Clean dataset organization
 
+## How to Run
+
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+
+
 ## Why This Matters
 Proper preprocessing improves:
 - Model accuracy
@@ -25,3 +32,18 @@ This guide is suitable for:
 - `preprocess.py` implementation
 - Sample dataset structure
 - Step-by-step preprocessing walkthrough
+
+Place raw face images inside:
+
+dataset/raw_images/
+
+
+Run the preprocessing script:
+
+python preprocess.py
+
+
+Processed images will be saved to:
+
+dataset/processed_images/
+
