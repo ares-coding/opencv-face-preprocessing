@@ -12,12 +12,20 @@ designed for Machine Learning and Computer Vision projects.
 
 ## How to Run
 
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
+Install dependencies:
 
+pip install -r requirements.txt
+Place raw face images inside:
+
+dataset/raw_images/
+Run the preprocessing script:
+
+python preprocess.py
+Processed images will be saved to:
+dataset/processed_images/
 
 ## Why This Matters
+
 Proper preprocessing improves:
 - Model accuracy
 - Training stability
@@ -29,21 +37,6 @@ This guide is suitable for:
 - Thesis and capstone preparation
 
 ## Coming Soon
-- `preprocess.py` implementation
+- preprocess.py improvements
 - Sample dataset structure
 - Step-by-step preprocessing walkthrough
-
-Place raw face images inside:
-
-dataset/raw_images/
-
-
-Run the preprocessing script:
-
-python preprocess.py
-
-
-Processed images will be saved to:
-
-dataset/processed_images/
-
